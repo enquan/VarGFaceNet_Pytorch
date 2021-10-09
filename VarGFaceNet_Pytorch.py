@@ -5,6 +5,7 @@ from torch.nn import Linear, Conv2d, BatchNorm1d, BatchNorm2d, PReLU, ReLU, Sigm
 bn_mom = 0.9
 bn_eps = 2e-5
 # use_global_stats = False
+
 # net_setting params
 use_se = True
 se_ratio = 4
